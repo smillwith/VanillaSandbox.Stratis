@@ -1,0 +1,21 @@
+class Header
+{
+  gameType = Sandbox; // Game type - Unknown, Coop, DM, TDM, CTF, RPG, Sandbox, Seize, SC, Defend
+  minPlayers = 1; //min # of players the mission supports
+  maxPlayers = 12; //max # of players the mission supports
+};
+
+author="PIGPEN";
+
+class Params
+{
+  class darkness
+  {
+    title = "Darkness Level: ";
+      texts[] = { "Dawn", "Morning (Default)", "Afternoon", "Evening", "Dusk", "Night" };
+      values[] = {-5, 0, 4, 8, 9, 16};
+      default = 0;
+  };
+};
+
+
